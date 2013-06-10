@@ -1,6 +1,5 @@
-Title:  OpenShift Enterprise Training - Lab Manual
-Author: Grant Shipley  
-Date:   Jan, 2013
+Title:  OpenShift Origin Manual
+Initial Author: Grant Shipley  
 
 #**Contents**#
 
@@ -40,20 +39,16 @@ Date:   Jan, 2013
 
 <!--BREAK-->
 
-#**1.0 Overview of OpenShift Enterprise**
+#**1.0 Overview of OpenShift Origin**
 
 ##**1.1 Assumptions**
-This lab manual assumes that you are attending an instructor led training class and that you will be using this lab manual in conjunction with the lecture.  
 
-I also assume that you have been granted access to two Red Hat Enterprise Linux servers with which to perform the exercises in this lab manual.  If you do not have access to your servers, please notify the instructor.
+A working knowledge of SSH, git, and yum, and familiarity with a Linux-based text editor are assumed.  If you do not have an understanding of any of these technologies, please let the instructor know.
 
- A working knowledge of SSH, git, and yum, and familiarity with a Linux-based text editor are assumed.  If you do not have an understanding of any of these technologies, please let the instructor know.
+For definitions of cloud computing concepts, refer to the National Institute of Standards and Technology (NIST) document, Special Publication 800-145: [The NIST Definition of Cloud Computing](http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf).
 
-##**1.2 What you can expect to learn from this training class**
 
-At the conclusion of this training class, you should have a solid understanding of how to install and configure OpenShift Enterprise.  You should also feel comfortable in the usage of creating and deploying applications using the OpenShift Enterprise web console, command line tools, and JBoss Developer Studio.
-
-##**1.3 Overview of OpenShift Enterprise PaaS**
+##**1.3 Overview of OpenShift Origin PaaS**
 
 Platform as a Service is changing the way developers approach developing software. Developers typically use a local sandbox with their preferred application server and only deploy locally on that instance. Developers typically start JBoss locally using the startup.sh command and drop their .war or .ear file in the deployment directory and they are done.  Developers have a hard time understanding why deploying to the production infrastructure is such a time consuming process.
 
@@ -4345,5 +4340,5 @@ While trying to add a node to a district, a common error is that the node alread
 	
 The above commands will stop the users application and them remove the application from the node.  If you want to preserve the application data, you should backup the application first using the snapshot tool that is part of the RHC command line tools.
 
-
+#**Appendix B - Terminology**
 
