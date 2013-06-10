@@ -1,5 +1,5 @@
-Title:  OpenShift Origin Manual
-Initial Author: Grant Shipley  
+
+**This file is in a state of flux.  It is being re-written and re-factored into smaller documents.**
 
 #**Contents**#
 

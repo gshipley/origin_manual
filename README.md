@@ -1,6 +1,8 @@
-origin_manual
-=============
+OpenShift Origin Manual
+=======================
 
-This repo will contain the .md version of an OpenShift Origin manual that I am writing, hopefully with the help of the Origin Community.
+This repo is for the community effort to document OpenShift Origin.  The source material is a training manual for OpenShift Enterprise, written by [Grant Shipley](http://github.com/gshipley/origin_manual).
 
-The manual is initally based on an OpenShift Enterprise manual that I wrote.
+## **OriginManual.md**
+
+This source file is being re-factored into the document sections located in the OpenShift Origin Manual directory.
