@@ -47,8 +47,7 @@ A working knowledge of SSH, git, and yum, and familiarity with a Linux-based tex
 
 For definitions of cloud computing concepts, refer to the National Institute of Standards and Technology (NIST) document, Special Publication 800-145: [The NIST Definition of Cloud Computing](http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf).
 
-
-##**1.3 Overview of OpenShift Origin PaaS**
+##**1.2 Overview of OpenShift Origin PaaS**
 
 Platform as a Service is changing the way developers approach developing software. Developers typically use a local sandbox with their preferred application server and only deploy locally on that instance. Developers typically start JBoss locally using the startup.sh command and drop their .war or .ear file in the deployment directory and they are done.  Developers have a hard time understanding why deploying to the production infrastructure is such a time consuming process.
 
@@ -56,19 +55,17 @@ System Administrators understand the complexity of not only deploying the code, 
 
 OpenShift Enterprise provides developers and IT organizations an auto-scaling cloud application platform for quickly deploying new applications on secure and scalable resources with minimal configuration and management headaches. This means increased developer productivity and a faster pace in which IT can support innovation.
 
-This manual will walk you through the process of installing and configuring an OpenShift Enterprise environment as part of this two day training class that you are attending.
+This manual will walk you through the process of installing and configuring an OpenShift Origin environment as part of this two day training class that you are attending.
 
-##**1.4 Overview of IaaS**
+##**1.3 Overview of IaaS**
 
-The great thing about OpenShift Enterprise is that we are infrastructure agnostic. You can run OpenShift on bare metal, virtualized instances, or on public/private cloud instances. The only thing that is required is Red Hat Enterprise Linux as the underlying operating system. We require this in order to take advantage of SELinux and other enterprise features so that you can ensure your installation is rock solid and secure.
+The great thing about OpenShift Origin is that we are infrastructure agnostic. You can run OpenShift on bare metal, virtualized instances, or on public/private cloud instances. The only thing that is required is a Red Hat Enterprise Linux (RHEL) based operating system.  This is required in order to take advantage of SELinux and other enterprise features so that you can ensure your installation is rock solid and secure.
 
-What does this mean? This means that in order to take advantage of OpenShift Enterprise, you can use any existing resources that you have in your hardware pool today. It doesn't matter if your infrastructure is based on EC2, VMware, RHEV, Rackspace, OpenStack, CloudStack, or even bare metal as we run on top of any Red Hat Enterprise Linux operating system as long as the architecture is x86_64.
+What does this mean? In order to take advantage of OpenShift Origin, one can use any existing hardware resources. It doesn't matter if the infrastructure is based on EC2, VMware, RHEV, Rackspace, OpenStack, CloudStack, or even bare metal as OpenShift Origin runs on top of any Red Hat Enterprise Linux operating system as long as the architecture is x86_64.
 
-For this training class will be using OpenStack as our infrastructure as a service layer.
+##**1.4 Using the *kickstart* script**
 
-##**1.5 Using the *kickstart* script**
-
-In this training class, we are going to go into the details of installing and configuring all of the components required for OpenShift Enterprise.  We will be installing and configuring BIND, MongoDB, DHCP, ActiveMQ, MCollective, and other vital pieces to OpenShift.  Doing this manually will give you a better understanding of how all of the components of OpenShift Enterprise work together to create a complete solution.
+This manual goes into the details of installing and configuring all of the components required for OpenShift Enterprise.  We will be installing and configuring BIND, MongoDB, DHCP, ActiveMQ, MCollective, and other vital pieces to OpenShift.  Doing this manually will give you a better understanding of how all of the components of OpenShift Enterprise work together to create a complete solution.
 
 That being said, once you have a solid understanding of all of the moving pieces, you will probably want to take advantage of our kickstart script that performs all the functions in the administration portion of this training on your behalf.  This script will allow you to create complete OpenShift Enterprise environments in a matter of minutes.  It is not intended for you to use the kickstart as part of this training class.
 
@@ -77,7 +74,7 @@ https://mirror.openshift.com/pub/enterprise-server/scripts/1.0/
 
 When using the kickstart script, be sure to edit it to use the correct Red Hat subscriptions.  Take a look at the script header for full instructions.
 
-##**1.6 Electronic version of this document**
+##**1.5 Electronic version of this document**
 
 This lab manual contains many configuration items that will need to be performed on your broker and node hosts.  Manually typing in all of these values would be a tedious and error prone effort.  To alleviate the risk of errors, and to let you concentrate on learning the material instead of typing tedious configuration items, an electronic version of the document is available at the following URL:
 
